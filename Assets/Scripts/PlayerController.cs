@@ -4,10 +4,13 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {	
-	public Rigidbody rb;
+	// Public variable declarations
+    public Rigidbody rb;
 	public GameObject displayCount;
 	public GameObject displayWin;
 	public float speed;
+
+    // Private variable declarations
 	private int count;
 	private Text countText;
 	private Text winText;
